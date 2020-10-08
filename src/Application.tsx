@@ -1,7 +1,7 @@
 import { StaticDropdown } from "./Component/Provided/Dropdown/Static/StaticDropdown";
 import { EndpointDropdown } from "./Component/Provided/Dropdown/Endpoint/EndpointDropdown";
 import { Customer } from "./Model/Customer";
-import { CascadedDropdown } from "./Component/Provided/Dropdown/CascadedDropdown/CascadedDropdown";
+import { CascadedDropdown } from "./Component/Provided/Dropdown/Cascaded/CascadedDropdown";
 import { Contact } from "./Model/Contact";
 import * as React from "react";
 import { useState } from "react";
