@@ -1,0 +1,38 @@
+{
+  "name": "keajs-sandbox",
+  "version": "0.1.0-DEV",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:chapterjason/keajs-sandbox.git",
+  "author": "chapterjason <jason@sourecode.dev>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "server": "webpack serve --mode development",
+    "api": "node ./api.js"
+  },
+  "devDependencies": {
+    "@hot-loader/react-dom": "^17.0.0-rc.2",
+    "@types/react": "^16.9.51",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "axios": "^0.20.0",
+    "casual": "^1.6.2",
+    "html-webpack-plugin": "^4.5.0",
+    "json-server": "^0.16.2",
+    "kea": "^2.2.0",
+    "luxon": "^1.25.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-use": "^15.3.4",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^5.0.0-rc.4",
+    "webpack-cli": "^4.0.0-rc.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
